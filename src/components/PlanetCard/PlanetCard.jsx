@@ -66,9 +66,10 @@ const PlanetCard = ({planetName}) => {
 							<StyledContent>
                                 {INFO[planetName].geology.content}
 							</StyledContent>
-							
-							<StyledContent>Source:</StyledContent>
-                            <StyledSourceArrow>
+							<StyledSourceArrow>
+
+								<StyledContent>Source:</StyledContent>
+                            
                                 <StyledSource href={INFO[planetName].geology.source}>
                                         Wikipedia
                                     <StyledArrow src='./images/icon-source.svg' />
