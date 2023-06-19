@@ -5,7 +5,7 @@ const StyledContainer = styled.nav`
     
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding:0 2rem ;
     width: 100%;
     height: 85px;
@@ -19,7 +19,7 @@ const StyledTitle = styled.h1`
     font-weight: 400;
     font-size: 28px;
     line-height: 36px;
-    letter-spacing: 1.05px;
+    
     text-transform: uppercase;
 `;
 
@@ -43,4 +43,4 @@ const StyledLink = styled(NavLink)`
     text-decoration: none;
 `;
 
-export { StyledContainer, StyledTitle, StyledMenu, StyledLink};
+export { StyledContainer, StyledTitle, StyledMenu, StyledLink };

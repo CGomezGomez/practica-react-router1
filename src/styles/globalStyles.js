@@ -19,6 +19,7 @@ const GlobalStyles = createGlobalStyle`
         width: 100vw;
         color: white;
 
+
     }
 
     *{
