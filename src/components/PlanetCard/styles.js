@@ -13,7 +13,7 @@ const StyledInfo= styled.div`
 
 const StyledContainer = styled.div`
     position: relative;
-    margin-top: 150px;
+    margin-top: 90px;
 `;
 const StyledImages = styled.img`
      width: 400px;
@@ -30,7 +30,7 @@ const StyledPosition = styled.img`
 
 const StyledText = styled.div`
     width: 350px;
-    margin-top: 150px;
+    margin-top: 90px;
 `;
 
 const StyledH1 = styled.h1`
